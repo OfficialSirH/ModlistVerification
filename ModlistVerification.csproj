@@ -28,6 +28,16 @@
 		<PackageReference Include="R.E.P.O.GameLibs.Steam" Version="0.1.2-ngd.0" />
 		<PackageReference Include="UnityEngine.Modules" Version="2022.3.22" IncludeAssets="compile" />
 		<PackageReference Include="Zehs.REPOLib" Version="2.0.1" />
+		<Reference Include="MenuLib">
+			<HintPath>libs/MenuLib.dll</HintPath>
+		</Reference>
+
+		<Reference Include="PhotonUnityNetworking">
+			<HintPath>libs/PhotonUnityNetworking.dll</HintPath>
+		</Reference>
+		<Reference Include="PhotonRealtime">
+			<HintPath>libs/PhotonRealtime.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
